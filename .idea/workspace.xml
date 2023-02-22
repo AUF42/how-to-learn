@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c64a2ca2-3f1d-461c-85fb-7359f97c7ce4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tiktok-icon.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/youtube-icon.svg" beforeDir="false" />
-    </list>
+    <list default="true" id="c64a2ca2-3f1d-461c-85fb-7359f97c7ce4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +44,7 @@
       <updated>1676564103319</updated>
       <workItem from="1676564104579" duration="2645000" />
       <workItem from="1676575206423" duration="1218000" />
-      <workItem from="1676826243607" duration="85765000" />
+      <workItem from="1676826243607" duration="86075000" />
     </task>
     <servers />
   </component>
