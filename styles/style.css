@@ -22,8 +22,6 @@
 }
 
 .logo {
-  left: 64px;
-  top: 30px;
   height: 32px;
   width: 228px;
   z-index: 1;
@@ -32,12 +30,13 @@
 .logo_place_header {
   background-image: url("../images/logo_place_header.svg");
   position: absolute;
+  left: 64px;
+  top: 30px;
 }
 
 .header__title {
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   width: 730px;
-  display: flex;
   align-self: center;
   font-size: 102px;
   line-height: 96px;
@@ -49,7 +48,7 @@
 .header__subtitle {
   margin: 0;
   position: absolute;
-  width: 390px;
+  width: 388px;
   left: 64px;
   bottom: 30px;
   font-size: 18px;
@@ -87,7 +86,6 @@
   padding-top: 100px;
   padding-bottom: 0;
   display: flex;
-  min-height: 90px;
   justify-content: center;
   margin: 0;
 }
@@ -95,8 +93,6 @@
 .two-columns {
   width: 80%;
   display: flex;
-  margin-top: 100px;
-  margin-bottom: 100px;
   justify-content: space-between;
 }
 
@@ -121,6 +117,10 @@
   font-size: 24px;
   font-weight: normal;
   padding-bottom: 30px;
+}
+
+.two-columns__paragraph:last-child {
+  padding-bottom: 0;
 }
 
 .two-columns__span-accent {
@@ -176,9 +176,6 @@
 .table__cell {
   padding: 0;
   vertical-align: top;
-}
-
-.table__cell__theme_white {
   width: 250px;
   margin: 60px 0 0 0;
 }
@@ -253,7 +250,7 @@
 
 /*Стили для блока kaufman*/
 .kaufman {
-  background-color: #000000;
+  background-color: #1f1f1f;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -287,9 +284,11 @@
   padding: 60px 0 40px 0;
   min-height: 350px;
   display: flex;
-  background-color: #000000;
+  background-color: #1f1f1f;;
   justify-content: center;
   color: #f2f2f2;
+  box-sizing: border-box;
+
 }
 
 .footer__columns {
@@ -324,13 +323,6 @@
   color: white;
   line-height: 30px;
   font-size: 18px;
-}
-
-.heading__text {
-  color: white;
-  font-weight: 600;
-  padding-bottom: 20px;
-  margin: 0;
 }
 
 .footer__author {
