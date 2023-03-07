@@ -13,11 +13,11 @@
     <h1 class="header__title">Научиться учиться</h1>
     <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a href="#" class="header__link link"> Узнать? &rarr;</a></p>
     <img src="./images/header-image.png" class="header__main-illustration" alt="Картина опять двойка">
-    <div class="header__square-pic"></div>
+    <div class="header__square-pic rotation"></div>
   </header>
 
   <main class="content">
-    <section class="description">
+    <section class="description" aria-label="Секция description">
       <article class="two-columns">
         <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
         <div class="two-columns__main-text">
@@ -31,56 +31,48 @@
       </article>
     </section>
 
-    <section class="techniques">
+    <section class="techniques" aria-label="Секция techniques">
       <h2 class="section-title">Техники обучения</h2>
       <p class="section-subtitle">Пять практик от Барбары Оакли</p>
       <ul class="cards">
         <li class="cards__item">
           <img class="cards__image" src="images/cards-attention.png" alt="Два вида понимания">
-          <p class="cards__title">Два вида понимания</p>
+          <h3 class="cards__title">Два вида внимания</h3>
           <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
         </li>
         <li class="cards__item">
           <img class="cards__image" src="images/cards-recall.png" alt="Реколл">
-          <p class="cards__title">Recall</p>
+          <h3 class="cards__title">Recall</h3>
           <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
         </li>
         <li class="cards__item">
           <img class="cards__image" src="images/cards-interliving.png" alt="Интерливинг">
-          <p class="cards__title">Интерливинг</p>
+          <h3 class="cards__title">Интерливинг</h3>
           <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
         </li>
         <li class="cards__item">
           <img class="cards__image" src="images/cards-question.png" alt="Вопросы">
-          <p class="cards__title">Вопросы</p>
+          <h3 class="cards__title">Вопросы</h3>
           <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
         </li>
         <li class="cards__item">
           <img class="cards__image" src="images/cards-competence.png" alt="Иллюзия компетентности">
-          <p class="cards__title">Иллюзия компетентности</p>
+          <h3 class="cards__title">Иллюзия компетентности</h3>
           <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
         </li>
       </ul>
     </section>
 
-    <section class="video">
+    <section class="video" aria-label="Секция video">
       <h2 class="section-title">Видео нa TED</h2>
       <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-      <ul class="video__iframes">
-        <li class="video__iframe">
-          <iframe class="video__iframe"
-                  src="https://www.youtube.com/embed/arj7oStGLkU"
-                  allowfullscreen>
-          </iframe></li>
-        <li class="video__iframe">
-          <iframe class="video__iframe"
-                  src="https://www.youtube.com/embed/5MgBikgcWnY"
-                  allowfullscreen>
-          </iframe></li>
-      </ul>
+      <div class="video__iframes">
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"></iframe>
+      </div>
     </section>
 
-    <section class="oakley">
+    <section class="oakley" aria-label="Секция oakley">
       <article class="two-columns">
         <h2 class="two-columns__brief">История Барбары Оакли.</h2>
         <div class="two-columns__main-text">
@@ -91,13 +83,13 @@
       </article>
     </section>
 
-    <section class="feynman">
+    <section class="feynman" aria-label="Секция feynman">
       <h2 class="feynman__title">Метод Фейнмана</h2>
       <p class="feynman__subtitle">Выучить и не забыть.</p>
       <a class="feynman__link link" href="#" >Подробнее &rarr;</a>
     </section>
 
-    <section class="digits">
+    <section class="digits" aria-label="Секция digits">
       <h2 class="section-title">Цифры и факты</h2>
       <p class="section-subtitle">Про учёбу и мозг</p>
       <ul class="table">
@@ -138,7 +130,7 @@
       </ul>
     </section>
 
-    <section class="khan">
+    <section class="khan" aria-label="Секция khan">
       <article class="khan__container">
         <p class="khan__author">Салман Хан</p>
         <h2 class="khan__title">Весь мир — школа</h2>
@@ -152,7 +144,7 @@
       </article>
     </section>
 
-    <section class="kaufman">
+    <section class="kaufman" aria-label="Секция kaufman">
       <h2 class="section-title">Принципы обучения</h2>
       <p class="section-subtitle">от Джоша Кауфмана</p>
       <ul class="table">
@@ -197,17 +189,33 @@
           <p class="table__text">Уделяйте внимание количеству и скорости.</p>
         </li>
       </ul>
-      <div class="kaufman__triangle"></div>
+      <div class="kaufman__triangle rotation"></div>
     </section>
 
-    <section class="resources">
+    <section class="resources" aria-label="resources">
       <h2 class="section-title">Полезные ресурсы</h2>
       <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
       <ul class="resources__logo-zone">
-        <li class="resources__logo"><img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="арзамас"></li>
-        <li class="resources__logo"><img class="resources__logo" src="./images/logo/resources-n1.svg" alt="н1"></li>
-        <li class="resources__logo"><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="стрелка"></li>
-        <li class="resources__logo"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="полка"></li>
+        <li>
+          <a href="https://arzamas.academy">
+          <img class="resources__logo link" src="./images/logo/resources-arzamas.svg" alt="арзамас">
+          </a>
+        </li>
+        <li>
+          <a href="https://nplus1.ru">
+          <img class="resources__logo link" src="./images/logo/resources-n1.svg" alt="н1">
+          </a>
+        </li>
+        <li>
+          <a href="https://store.strelka.com/books">
+          <img class="resources__logo link" src="./images/logo/resources-strelka.svg" alt="стрелка">
+          </a>
+        </li>
+        <li>
+          <a href="https://polka.academy">
+          <img class="resources__logo link" src="./images/logo/resources-polka.svg" alt="полка">
+          </a>
+        </li>
       </ul>
     </section>
   </main>
