@@ -35,3 +35,6 @@ The single page website is created using some advanced features of HTML and CSS.
 * Transform, animation using CSS
 * BEM Methodology
 * Git
+
+
+https://auf42.github.io/how-to-learn/index.html
